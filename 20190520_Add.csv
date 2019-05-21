@@ -1,0 +1,5 @@
+passed_validation,samAccount,Status,First,Last,Email,Title,Facility,Job,Profile,IsApprover,Created,Updated
+term,HColdeen,Termed,Harvey,Coldeen,HColdeen@enlivant.com,chef,="0087",CH,2029,False,4/5/2019 4:01 PM,5/20/2019 1:46 PM
+term,TaJohnson,Termed,Tammy,Johnson,TaJohnson@enlivant.com,csm,="0148",RN,2029,False,9/26/2017 10:52 PM,5/20/2019 1:26 PM
+term,HSauls,Termed,Hannah,Sauls,empty,lec,="0425",AC,2029,False,5/9/2018 10:27 PM,5/20/2019 1:26 PM
+term,CMiraflor,Termed,Christina,Miraflor,CMiraflor@enlivant.com,csm,="0010",RN,2029,False,3/28/2019 6:06 PM,5/20/2019 1:26 PM

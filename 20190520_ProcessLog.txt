@@ -1,0 +1,41 @@
+Starting application 5/20/2019 9:37:11 AM
+
+Processing record # 1, Client ID 276
+Requesting to terminate : 
+0087.Harvey.Coldeen  First: Harvey  Last: Coldeen  Job:   Facility: 0087  Email: HColdeen@enlivant.com
+--- Pause application : 5/20/2019 9:37:11 AM ---
+--- Resume application : 5/20/2019 9:37:41 AM ---
+
+Processing record # 2, Client ID 277
+Requesting to terminate : 
+0148.Tammy.Johnson  First: Tammy  Last: Johnson  Job:   Facility: 0148  Email: TaJohnson@enlivant.com
+--- Pause application : 5/20/2019 9:37:42 AM ---
+--- Resume application : 5/20/2019 9:38:12 AM ---
+FaultException executing webservice to terminate 
+0148.Tammy.Johnson  First: Tammy  Last: Johnson  Job:   Facility: 0148  Email: TaJohnson@enlivant.com
+Error:System.ServiceModel.FaultException`1[ProcessClient.ContactService.ErrorCode]: UserName
+0148.Tammy.Johnson not found for Provider ALC (Fault Detail is equal to ContactNotFound).
+
+Processing record # 3, Client ID 278
+Requesting to terminate : 
+0425.Hannah.Sauls  First: Hannah  Last: Sauls  Job:   Facility: 0425  Email: empty
+--- Pause application : 5/20/2019 9:38:13 AM ---
+--- Resume application : 5/20/2019 9:38:43 AM ---
+FaultException executing webservice to terminate 
+0425.Hannah.Sauls  First: Hannah  Last: Sauls  Job:   Facility: 0425  Email: empty
+Error:System.ServiceModel.FaultException`1[ProcessClient.ContactService.ErrorCode]: UserName
+0425.Hannah.Sauls not found for Provider ALC (Fault Detail is equal to ContactNotFound).
+
+Processing record # 4, Client ID 279
+Requesting to terminate : 
+0010.Christina.Miraflor  First: Christina  Last: Miraflor  Job:   Facility: 0010  Email:
+CMiraflor@enlivant.com
+--- Pause application : 5/20/2019 9:38:43 AM ---
+--- Resume application : 5/20/2019 9:39:13 AM ---
+FaultException executing webservice to terminate 
+0010.Christina.Miraflor  First: Christina  Last: Miraflor  Job:   Facility: 0010  Email:
+CMiraflor@enlivant.com
+Error:System.ServiceModel.FaultException`1[ProcessClient.ContactService.ErrorCode]: UserName
+0010.Christina.Miraflor not found for Provider ALC (Fault Detail is equal to ContactNotFound).
+Option Ready -> Clients added 0 : Clients termed 4
+From: Main() Line #: 74

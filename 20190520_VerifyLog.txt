@@ -1,0 +1,7 @@
+Starting application 5/20/2019 9:42:30 AM
+
+Processing record # 1, Client ID 276, DSSI_ID 0087.Harvey.Coldeen
+Termination Confirmed 5/20/2019 9:42:31 AM
+
+Option SentToDSSI -> Clients added 0 : Clients termed 1
+From: Main() Line #: 77

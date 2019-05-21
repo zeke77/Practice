@@ -1,0 +1,8 @@
+Starting application 5/20/2019 9:35:22 AM
+From: Main() Line #: 25
+Employees added to Database. 
+From: Main() Line #: 51
+Employees with status 'Active' 0
+From: Main() Line #: 52
+Clients with status 'Termed' 4
+From: Main() Line #: 53
