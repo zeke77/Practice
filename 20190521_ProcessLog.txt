@@ -1,0 +1,16 @@
+Starting application 5/21/2019 8:48:36 AM
+
+Processing record # 1, Client ID 280
+Requesting to terminate : 
+0168.Doris.brown  First: Doris  Last: brown  Job:   Facility: 0168  Email: empty
+--- Pause application : 5/21/2019 8:48:37 AM ---
+--- Resume application : 5/21/2019 8:49:07 AM ---
+FaultException executing webservice to terminate 
+0168.Doris.brown  First: Doris  Last: brown  Job:   Facility: 0168  Email: empty
+Error:System.ServiceModel.FaultException`1[ProcessClient.ContactService.ErrorCode]: UserName 0168.Doris.brown
+not found for Provider ALC (Fault Detail is equal to ContactNotFound).
+
+Option Ready -> Clients added 0 : Clients termed 1
+Starting application 5/21/2019 8:56:57 AM
+
+No clients to process for option Ready
