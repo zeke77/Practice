@@ -1,0 +1,65 @@
+VerifyDssiClient: Starting application 5/24/2019 11:19:14 AM
+
+Processing record # 1, Client ID 292, DSSI_ID 0012.Courtney.Dill
+Add Confirmed 5/24/2019 11:19:15 AM
+DSSI welcome email sent to: CDill@enlivant.com
+From: EmailUserSetup() Line #: 64
+
+Processing record # 2, Client ID 294, DSSI_ID 0025.Amber.Hopewell
+Add Confirmed 5/24/2019 11:19:15 AM
+DSSI welcome email sent to: AHopewell@enlivant.com
+From: EmailUserSetup() Line #: 64
+
+Processing record # 3, Client ID 295, DSSI_ID 0516.David.Donnellon
+Add Confirmed 5/24/2019 11:19:16 AM
+DSSI welcome email sent to: DDonnellon@enlivant.com
+From: EmailUserSetup() Line #: 64
+
+Processing record # 4, Client ID 296, DSSI_ID 0134.Shelby.Bartlett
+Add Confirmed 5/24/2019 11:19:16 AM
+DSSI welcome email sent to: SBartlett@enlivant.com
+From: EmailUserSetup() Line #: 64
+
+Processing record # 5, Client ID 298, DSSI_ID 0027.Sandra.Hernandez
+Add Confirmed 5/24/2019 11:19:17 AM
+DSSI welcome email sent to: SHernandez@enlivant.com
+From: EmailUserSetup() Line #: 64
+
+Processing record # 6, Client ID 299, DSSI_ID 0027.Yolanda.Kendrick
+Add Confirmed 5/24/2019 11:19:17 AM
+DSSI welcome email sent to: YKendrick@enlivant.com
+From: EmailUserSetup() Line #: 64
+
+Processing record # 7, Client ID 300, DSSI_ID 0036.Tracey.Eldridge
+Add Confirmed 5/24/2019 11:19:18 AM
+DSSI welcome email sent to: TEldridge@enlivant.com
+From: EmailUserSetup() Line #: 64
+
+Option SentToDSSI -> Clients added 7 : Clients termed 0
+From: Main() Line #: 77
+VerifyDssiClient: Starting application 5/24/2019 11:22:54 AM
+
+Processing record # 1, Client ID 302, DSSI_ID 0053.Kristina.Adams
+Termination Confirmed 5/24/2019 11:22:55 AM
+
+Option SentToDSSI -> Clients added 0 : Clients termed 1
+From: Main() Line #: 77
+VerifyDssiClient: Starting application 5/24/2019 11:38:22 AM
+
+Processing record # 1, Client ID 290, DSSI_ID 0130.David.Clymer
+Add Confirmed 5/24/2019 11:38:23 AM
+DSSI welcome email sent to: DClymer@enlivant.com
+From: EmailUserSetup() Line #: 64
+
+Processing record # 2, Client ID 291, DSSI_ID 0425.Steven.Richard
+Add Confirmed 5/24/2019 11:38:23 AM
+DSSI welcome email sent to: SRichard@enlivant.com
+From: EmailUserSetup() Line #: 64
+
+Processing record # 3, Client ID 293, DSSI_ID 0121.Melissa.Carpenter
+Add Confirmed 5/24/2019 11:38:24 AM
+DSSI welcome email sent to: MCarpenter@enlivant.com
+From: EmailUserSetup() Line #: 64
+
+Option SentToDSSI -> Clients added 3 : Clients termed 0
+From: Main() Line #: 77

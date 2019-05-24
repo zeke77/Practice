@@ -1,0 +1,183 @@
+Starting application 5/24/2019 10:46:22 AM
+
+Processing record # 1, Client ID 291
+Requesting to create : 0425.Steven.Richard  First: Steven  Last: Richard  Job: ED  Facility: 0425  Email:
+SRichard@enlivant.com  Profile: 2030  User Flag: True
+From: CreateNewAccount() Line #: 121
+Sleeping for 5 minutes
+--- Pause application : 5/24/2019 10:46:23 AM ---
+--- Resume application : 5/24/2019 10:51:23 AM ---
+ERROR in AddUserToApproverGroup method for 0425.Steven.Richard: System.ServiceModel.FaultException: The
+server was unable to process the request due to an internal error.  For more information about the error, either turn on IncludeExceptionDetailInFaults (either from ServiceBehaviorAttribute or from the <serviceDebug> configuration behavior) on the server in order to send the exception information back to the client, or turn on tracing as per the Microsoft .NET Framework SDK documentation and inspect the server trace logs.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.ServiceChannel.ThrowIfFaultUnderstood(Message reply, MessageFault fault, String action, MessageVersion version, FaultConverter faultConverter)
+   at System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at ProcessClient.ContactService.IContactService2.AddUserToFacilityApprovalGroupByUserName(String userName, Int32 approvalGroupID)
+   at ProcessClient.ContactService.ContactService2Client.AddUserToFacilityApprovalGroupByUserName(String userName, Int32 approvalGroupID) in C:\EnlivantProjects\VS2017_201905\DSSI\DSSI2019\ProcessClient\Connected Services\ContactService\Reference.cs:line 2218
+   at ProcessClient.Library.DataAccess.AddUserToApproverGroup(ContactService2Client clientExternal, Contact2 c2, List`1 myList, Client myclient) in C:\EnlivantProjects\VS2017_201905\DSSI\DSSI2019\ProcessClient\Library\DataAccess.cs:line 187
+From: AddUserToApproverGroup() Line #: 197
+Exiting application
+From: AddUserToApproverGroup() Line #: 202
+Starting application 5/24/2019 10:52:44 AM
+
+Processing record # 1, Client ID 292
+Requesting to create : 0012.Courtney.Dill  First: Courtney  Last: Dill  Job: CH  Facility: 0012  Email:
+CDill@enlivant.com  Profile: 2029  User Flag: False
+From: CreateNewAccount() Line #: 121
+
+Processing record # 2, Client ID 293
+Requesting to create : 0121.Melissa.Carpenter  First: Melissa  Last: Carpenter  Job: ED  Facility: 0121 
+Email: MCarpenter@enlivant.com  Profile: 2030  User Flag: True
+From: CreateNewAccount() Line #: 121
+Sleeping for 5 minutes
+--- Pause application : 5/24/2019 10:52:45 AM ---
+--- Resume application : 5/24/2019 10:57:45 AM ---
+ERROR in AddUserToApproverGroup method for 0121.Melissa.Carpenter: System.ServiceModel.FaultException: The
+server was unable to process the request due to an internal error.  For more information about the error, either turn on IncludeExceptionDetailInFaults (either from ServiceBehaviorAttribute or from the <serviceDebug> configuration behavior) on the server in order to send the exception information back to the client, or turn on tracing as per the Microsoft .NET Framework SDK documentation and inspect the server trace logs.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.ServiceChannel.ThrowIfFaultUnderstood(Message reply, MessageFault fault, String action, MessageVersion version, FaultConverter faultConverter)
+   at System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at ProcessClient.ContactService.IContactService2.AddUserToFacilityApprovalGroupByUserName(String userName, Int32 approvalGroupID)
+   at ProcessClient.ContactService.ContactService2Client.AddUserToFacilityApprovalGroupByUserName(String userName, Int32 approvalGroupID) in C:\EnlivantProjects\VS2017_201905\DSSI\DSSI2019\ProcessClient\Connected Services\ContactService\Reference.cs:line 2218
+   at ProcessClient.Library.DataAccess.AddUserToApproverGroup(ContactService2Client clientExternal, Contact2 c2, List`1 myList, Client myclient) in C:\EnlivantProjects\VS2017_201905\DSSI\DSSI2019\ProcessClient\Library\DataAccess.cs:line 187
+From: AddUserToApproverGroup() Line #: 197
+Exiting application
+From: AddUserToApproverGroup() Line #: 202
+Starting application 5/24/2019 11:11:07 AM
+
+Processing record # 1, Client ID 294
+Requesting to create : 0025.Amber.Hopewell  First: Amber  Last: Hopewell  Job: CH  Facility: 0025  Email:
+AHopewell@enlivant.com  Profile: 2029  User Flag: False
+From: CreateNewAccount() Line #: 121
+
+Processing record # 2, Client ID 295
+Requesting to create : 0516.David.Donnellon  First: David  Last: Donnellon  Job: RC  Facility: 0516  Email:
+DDonnellon@enlivant.com  Profile: 2029  User Flag: False
+From: CreateNewAccount() Line #: 121
+
+Processing record # 3, Client ID 296
+Requesting to create : 0134.Shelby.Bartlett  First: Shelby  Last: Bartlett  Job: AC  Facility: 0134  Email:
+SBartlett@enlivant.com  Profile: 2029  User Flag: False
+From: CreateNewAccount() Line #: 121
+
+Processing record # 4, Client ID 297
+Requesting to create : 0066.Tami.Doyle  First: Tami  Last: Doyle  Job: RN  Facility: 0066  Email:
+TDoyle1@enlivant.com  Profile: 2029  User Flag: False
+From: CreateNewAccount() Line #: 121
+FaultException executing webservice to terminate 
+0066.Tami.Doyle  First: Tami  Last: Doyle  Job: RN  Facility: 0066  Email: TDoyle1@enlivant.com  Profile:
+2029  User Flag: False
+Error:System.ServiceModel.FaultException`1[ProcessClient.ContactService.ErrorCode]: The username specified
+already exists. (Fault Detail is equal to DuplicateContact).
+
+Processing record # 5, Client ID 298
+Requesting to create : 0027.Sandra.Hernandez  First: Sandra  Last: Hernandez  Job: CH  Facility: 0027  Email:
+SHernandez@enlivant.com  Profile: 2029  User Flag: False
+From: CreateNewAccount() Line #: 121
+FaultException executing webservice to terminate 
+0027.Sandra.Hernandez  First: Sandra  Last: Hernandez  Job: CH  Facility: 0027  Email:
+SHernandez@enlivant.com  Profile: 2029  User Flag: False
+Error:System.ServiceModel.FaultException`1[ProcessClient.ContactService.ErrorCode]: The username specified
+already exists. (Fault Detail is equal to DuplicateContact).
+
+Processing record # 6, Client ID 299
+Requesting to create : 0027.Yolanda.Kendrick  First: Yolanda  Last: Kendrick  Job: CH  Facility: 0027  Email:
+YKendrick@enlivant.com  Profile: 2029  User Flag: False
+From: CreateNewAccount() Line #: 121
+FaultException executing webservice to terminate 
+0027.Yolanda.Kendrick  First: Yolanda  Last: Kendrick  Job: CH  Facility: 0027  Email: YKendrick@enlivant.com
+ Profile: 2029  User Flag: False
+Error:System.ServiceModel.FaultException`1[ProcessClient.ContactService.ErrorCode]: The username specified
+already exists. (Fault Detail is equal to DuplicateContact).
+
+Processing record # 7, Client ID 300
+Requesting to create : 0036.Tracey.Eldridge  First: Tracey  Last: Eldridge  Job: AC  Facility: 0036  Email:
+TEldridge@enlivant.com  Profile: 2029  User Flag: False
+From: CreateNewAccount() Line #: 121
+
+Processing record # 8, Client ID 301
+Requesting to terminate : 
+0139.Denise.LeBron  First: Denise  Last: LeBron  Job:   Facility: 0139  Email: DLeBron@enlivant.com
+--- Pause application : 5/24/2019 11:11:09 AM ---
+--- Resume application : 5/24/2019 11:11:39 AM ---
+FaultException executing webservice to terminate 
+0139.Denise.LeBron  First: Denise  Last: LeBron  Job:   Facility: 0139  Email: DLeBron@enlivant.com
+Error:System.ServiceModel.FaultException`1[ProcessClient.ContactService.ErrorCode]: UserName
+0139.Denise.LeBron not found for Provider ALC (Fault Detail is equal to ContactNotFound).
+
+Option Ready -> Clients added 7 : Clients termed 1
+Starting application 5/24/2019 11:21:41 AM
+
+Processing record # 1, Client ID 302
+Requesting to terminate : 
+0053.Kristina.Adams  First: Kristina  Last: Adams  Job:   Facility: 0053  Email: KAdams1@enlivant.com
+--- Pause application : 5/24/2019 11:21:42 AM ---
+--- Resume application : 5/24/2019 11:22:12 AM ---
+
+Option Ready -> Clients added 0 : Clients termed 1
+Starting application 5/24/2019 11:24:56 AM
+
+Processing record # 1, Client ID 290
+Requesting to create : 0130.David.Clymer  First: David  Last: Clymer  Job: ED  Facility: 0130  Email:
+DClymer@enlivant.com  Profile: 2030  User Flag: True
+From: CreateNewAccount() Line #: 121
+Sleeping for 5 minutes
+--- Pause application : 5/24/2019 11:24:57 AM ---
+--- Resume application : 5/24/2019 11:29:57 AM ---
+Requested to add 0130.David.Clymer as approver to 0130 group id 1002
+From: AddUserToApproverGroup() Line #: 192
+Requested to add 0130.David.Clymer as approver to 0130 group id 1377
+From: AddUserToApproverGroup() Line #: 192
+
+Option Ready -> Clients added 1 : Clients termed 0
+Starting application 5/24/2019 11:31:48 AM
+
+Processing record # 1, Client ID 291
+Requesting to create : 0425.Steven.Richard  First: Steven  Last: Richard  Job: ED  Facility: 0425  Email:
+SRichard@enlivant.com  Profile: 2030  User Flag: True
+From: CreateNewAccount() Line #: 121
+Sleeping for 5 minutes
+--- Pause application : 5/24/2019 11:31:49 AM ---
+Starting application 5/24/2019 11:32:44 AM
+
+Processing record # 1, Client ID 291
+Requesting to create : 0425.Steven.Richard  First: Steven  Last: Richard  Job: ED  Facility: 0425  Email:
+SRichard@enlivant.com  Profile: 2030  User Flag: True
+From: CreateNewAccount() Line #: 121
+Sleeping for 1 minutes
+--- Pause application : 5/24/2019 11:32:44 AM ---
+--- Resume application : 5/24/2019 11:33:44 AM ---
+Requested to add 0425.Steven.Richard as approver to 0425 group id 1002
+From: AddUserToApproverGroup() Line #: 192
+Requested to add 0425.Steven.Richard as approver to 0425 group id 1377
+From: AddUserToApproverGroup() Line #: 192
+
+Processing record # 2, Client ID 293
+Requesting to create : 0121.Melissa.Carpenter  First: Melissa  Last: Carpenter  Job: ED  Facility: 0121 
+Email: MCarpenter@enlivant.com  Profile: 2030  User Flag: True
+From: CreateNewAccount() Line #: 121
+Sleeping for 1 minutes
+--- Pause application : 5/24/2019 11:34:23 AM ---
+--- Resume application : 5/24/2019 11:35:23 AM ---
+Requested to add 0121.Melissa.Carpenter as approver to 0121 group id 1002
+From: AddUserToApproverGroup() Line #: 192
+Requested to add 0121.Melissa.Carpenter as approver to 0121 group id 1377
+From: AddUserToApproverGroup() Line #: 192
+
+Option Ready -> Clients added 2 : Clients termed 0
